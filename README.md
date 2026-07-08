@@ -173,12 +173,9 @@ This project demonstrates practical experience with:
 
 ## 🚀 Future Improvements
 
-- Add screenshots or demo GIFs
 - Add JUnit tests for validation logic
-- Improve exception handling and user messages
 - Add role-based access control
 - Add dashboard analytics for feedback trends
-- Package the application as an executable JAR
 
 ---
 
