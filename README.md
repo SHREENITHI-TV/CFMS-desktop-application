@@ -1,106 +1,190 @@
-# 🏢 Customer Feedback Management System (CFMS)
-[![Java](https://img.shields.io/badge/Java-8%2B-orange)](#)
-[![NetBeans](https://img.shields.io/badge/IDE-Apache%20NetBeans-blue)](#)
-[![MySQL](https://img.shields.io/badge/Database-MySQL-lightblue)](#)
-[![Desktop App](https://img.shields.io/badge/Application-Desktop-green)](#)
+<div align="center">
 
-A **Java Swing-based desktop application** that enables IT organizations to **collect, manage, and analyze customer feedback** using a structured, database-driven system.
+# 💬 Customer Feedback Management System  
+### Java Swing · MySQL · JDBC · Desktop Application
 
----
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Swing](https://img.shields.io/badge/Java%20Swing-5382A1?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JDBC](https://img.shields.io/badge/JDBC-025E8C?style=for-the-badge)
+![NetBeans](https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white)
 
-## 📌 Overview
-
-The **Customer Feedback Management System (CFMS)** is designed to help IT organizations centralize customer reviews, manage company information, and monitor feedback efficiently through a secure and interactive desktop application.
-
-This project demonstrates the integration of **GUI development, database connectivity, and authentication** in a real-world software system.
+</div>
 
 ---
 
-## ✨ Features
+## 🔍 Overview
 
-- 🔐 User and Admin login system  
-- 🏢 Manage IT organization/company details  
-- 📝 Submit customer feedback and reviews  
-- 📋 View, manage, and delete feedback  
-- 🗄 Persistent data storage using MySQL  
-- 🖥 Interactive desktop GUI built with Java Swing  
+**Customer Feedback Management System (CFMS)** is a **Java Swing desktop application** built to help IT organizations collect, manage, and review customer feedback using a structured MySQL-backed system.
+
+The project demonstrates desktop GUI development, database connectivity, authentication workflows, and feedback record management using **Java, Swing, JDBC, and MySQL**.
 
 ---
 
-## 🧰 Technology Stack
+## ✨ Key Features
 
-- **Java (Swing)**
-- **Apache NetBeans IDE**
-- **MySQL**
-- **JDBC**
-- **Ant (build system)**
-
----
-
-## ▶ How to Run the Project
-
-### ✅ Prerequisites
-Make sure the following are installed:
-- Java JDK 8 or higher  
-- Apache NetBeans IDE  
-- MySQL Server (XAMPP / WAMP / MySQL Workbench)
+| Feature | Description |
+|---|---|
+| 🔐 Login System | Supports admin/user login workflows |
+| 🏢 Organization Management | Manage IT organization/company records |
+| 💬 Feedback Submission | Allows users to submit customer feedback |
+| 📋 Feedback Review | View and manage submitted feedback |
+| 🗑️ Deleted Reviews Table | Stores deleted feedback records separately |
+| 🗄️ MySQL Storage | Persists application data using SQL tables |
+| 🖥️ Desktop GUI | Built using Java Swing components |
 
 ---
 
-### 🗄 Step 1: Database Setup
+## 🛠️ Tech Stack
 
-1. Start the MySQL server
-2. Create a database (example: `cfms`)
-3. Import the SQL files provided in the project root:
+| Category | Tools / Technologies |
+|---|---|
+| Programming Language | Java |
+| User Interface | Java Swing |
+| Database Connectivity | JDBC |
+| Database | MySQL |
+| IDE | Apache NetBeans |
+| Build System | Ant |
+| Database Setup | SQL scripts |
+
+---
+
+## 🗂️ Database Files
+
+The project includes SQL files for setting up the required database tables.
+
+| SQL File | Purpose |
+|---|---|
+| `admin_user.sql` | Creates/administers login user data |
+| `it_organizations.sql` | Stores IT organization/company information |
+| `it_organization_reviews.sql` | Stores customer feedback/review records |
+| `deleted_reviews.sql` | Stores deleted review records |
+
+---
+
+## 🧪 Testing / Validation Focus
+
+| Area Tested | Validation Goal |
+|---|---|
+| Login Workflow | Verify valid and invalid login behavior |
+| Form Inputs | Check required fields and input handling |
+| Feedback Submission | Confirm feedback is saved correctly |
+| Database Insert | Validate new records in MySQL |
+| Database Retrieval | Confirm saved records display correctly |
+| Delete Workflow | Verify deleted reviews are handled separately |
+| JDBC Connection | Confirm application connects to MySQL correctly |
+| Regression Testing | Re-check core workflows after changes |
+
+---
+
+## 👩‍💻 My Role
+
+I worked on this project with a focus on **Java desktop application development, database connectivity, and workflow validation**.
+
+My work involved:
+
+- developing and testing Java Swing screens
+- connecting the application to MySQL using JDBC
+- validating login and feedback workflows
+- checking database insert, retrieve, and delete operations
+- testing form behavior and user interactions
+- reviewing application flow from login to feedback management
+
+---
+
+## ▶️ How to Run
+
+### Prerequisites
+
+Make sure you have:
+
+- Java JDK 8 or higher
+- Apache NetBeans IDE
+- MySQL Server / XAMPP / WAMP
+- Project SQL files imported into MySQL
+
+---
+
+### Setup Steps
+
+1. Clone the repository.
+
+   `git clone https://github.com/SHREENITHI-TV/CFMS-desktop-application.git`
+
+2. Open **Apache NetBeans**.
+
+3. Go to:
+
+   `File → Open Project`
+
+4. Select the project folder.
+
+5. Start your MySQL server.
+
+6. Import the SQL files into your database:
+
    - `admin_user.sql`
    - `it_organizations.sql`
    - `it_organization_reviews.sql`
    - `deleted_reviews.sql`
 
-These scripts create the required tables and schema for the application.
+7. Check database connection details in the source code.
+
+   Typical values to verify:
+
+   - database name
+   - username
+   - password
+   - localhost port
+
+8. Run the project from NetBeans.
 
 ---
 
-### 🧩 Step 2: Open the Project in NetBeans
+## 🔄 Application Flow
 
-1. Open **Apache NetBeans IDE**
-2. Go to **File → Open Project**
-3. Select the `CFMS-for-an-IT-Organisation-master` folder
-4. Click **Open Project**
-
----
-
-### ▶ Step 3: Run the Application
-
-1. In the **Projects** panel, right-click the project
-2. Click **Run**
-
-✅ NetBeans automatically executes the main class  
-`CustomerFeedbackManagementSystem.java` and launches the application.
+```text
+Login
+  ↓
+Home / Dashboard
+  ↓
+Manage IT Organization Details
+  ↓
+Submit Customer Feedback
+  ↓
+View / Manage Feedback
+  ↓
+Delete / Store Review Records
 
 ---
 
-## 🧭 Application Flow
+## 📌 Project Relevance
 
-1. Login (Admin / User)
-2. Home dashboard
-3. IT organization management
-4. Feedback submission and review
-5. Admin moderation and data management
+This project demonstrates practical experience with:
 
----
-
-## 🎯 Use Cases
-
-- Java Swing & JDBC learning  
-- Desktop-based feedback systems  
-- Database-driven application design  
+- Java desktop application development
+- Java Swing UI workflows
+- JDBC database connectivity
+- MySQL-backed data management
+- Form validation and workflow testing
+- Database-driven application design
+- Functional and regression testing basics
 
 ---
 
-## 📎 Notes
+## 🚀 Future Improvements
 
-- Database credentials are configured in the source code.
-- The project is intended to be run using **Apache NetBeans**, which manages build and execution automatically.
+- Add screenshots or demo GIFs
+- Add JUnit tests for validation logic
+- Improve exception handling and user messages
+- Add role-based access control
+- Add dashboard analytics for feedback trends
+- Package the application as an executable JAR
 
 ---
+
+<div align="center">
+
+### Built to practice Java desktop development, database connectivity, and feedback workflow validation.
+
+</div>
