@@ -142,7 +142,7 @@ Make sure you have:
 ---
 
 ## 🔄 Application Flow
-
+```text
 Login
   ↓
 Home / Dashboard
@@ -154,7 +154,7 @@ Submit Customer Feedback
 View / Manage Feedback
   ↓
 Delete / Store Review Records
-
+```
 ---
 
 ## 📌 Project Relevance
