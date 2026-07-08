@@ -143,7 +143,6 @@ Make sure you have:
 
 ## 🔄 Application Flow
 
-```text
 Login
   ↓
 Home / Dashboard
