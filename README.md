@@ -13,7 +13,7 @@
 
 ---
 
-## 🔍 Overview
+### 🔍 Overview
 
 **Customer Feedback Management System (CFMS)** is a **Java Swing desktop application** built to help IT organizations collect, manage, and review customer feedback using a structured MySQL-backed system.
 
@@ -21,7 +21,7 @@ The project demonstrates desktop GUI development, database connectivity, authent
 
 ---
 
-## ✨ Key Features
+### ✨ Key Features
 
 | Feature | Description |
 |---|---|
@@ -35,7 +35,7 @@ The project demonstrates desktop GUI development, database connectivity, authent
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 | Category | Tools / Technologies |
 |---|---|
@@ -49,7 +49,7 @@ The project demonstrates desktop GUI development, database connectivity, authent
 
 ---
 
-## 🗂️ Database Files
+### 🗂️ Database Files
 
 The project includes SQL files for setting up the required database tables.
 
@@ -62,7 +62,7 @@ The project includes SQL files for setting up the required database tables.
 
 ---
 
-## 🧪 Testing / Validation Focus
+### 🧪 Testing / Validation Focus
 
 | Area Tested | Validation Goal |
 |---|---|
@@ -77,7 +77,7 @@ The project includes SQL files for setting up the required database tables.
 
 ---
 
-## 👩‍💻 My Role
+### 👩‍💻 My Role
 
 I worked on this project with a focus on **Java desktop application development, database connectivity, and workflow validation**.
 
@@ -92,9 +92,9 @@ My work involved:
 
 ---
 
-## ▶️ How to Run
+### ▶️ How to Run
 
-### Prerequisites
+#### Prerequisites
 
 Make sure you have:
 
@@ -105,7 +105,7 @@ Make sure you have:
 
 ---
 
-### Setup Steps
+#### Setup Steps
 
 1. Clone the repository.
 
@@ -141,7 +141,7 @@ Make sure you have:
 
 ---
 
-## 🔄 Application Flow
+### 🔄 Application Flow
 ```text
 Login
   ↓
@@ -157,7 +157,7 @@ Delete / Store Review Records
 ```
 ---
 
-## 📌 Project Relevance
+### 📌 Project Relevance
 
 This project demonstrates practical experience with:
 
@@ -171,7 +171,7 @@ This project demonstrates practical experience with:
 
 ---
 
-## 🚀 Future Improvements
+### 🚀 Future Improvements
 
 - Add JUnit tests for validation logic
 - Add role-based access control
@@ -181,6 +181,6 @@ This project demonstrates practical experience with:
 
 <div align="center">
 
-### Built to practice Java desktop development, database connectivity, and feedback workflow validation.
+#### Built to practice Java desktop development, database connectivity, and feedback workflow validation.
 
 </div>
