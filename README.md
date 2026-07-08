@@ -107,15 +107,11 @@ Make sure you have:
 
 #### Setup Steps
 
-1. Clone the repository.
-
-   `git clone https://github.com/SHREENITHI-TV/CFMS-desktop-application.git`
+1. Clone the repository.   `git clone https://github.com/SHREENITHI-TV/CFMS-desktop-application.git`
 
 2. Open **Apache NetBeans**.
 
-3. Go to:
-
-   `File → Open Project`
+3. Go to:   `File → Open Project`
 
 4. Select the project folder.
 
