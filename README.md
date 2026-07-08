@@ -3,11 +3,11 @@
 # 💬 Customer Feedback Management System  
 ### Java Swing · MySQL · JDBC · Desktop Application
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Swing](https://img.shields.io/badge/Java%20Swing-5382A1?style=for-the-badge)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![JDBC](https://img.shields.io/badge/JDBC-025E8C?style=for-the-badge)
-![NetBeans](https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white)
+[![Java](https://img.shields.io/badge/Java-Swing-orange)](#)
+[![MySQL](https://img.shields.io/badge/Database-MySQL-blue)](#)
+[![JDBC](https://img.shields.io/badge/Connectivity-JDBC-darkgreen)](#)
+[![IDE](https://img.shields.io/badge/IDE-Apache%20NetBeans-lightgrey)](#)
+[![Type](https://img.shields.io/badge/Application-Desktop%20GUI-purple)](#)
 
 </div>
 
